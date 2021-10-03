@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-auj%pw8p7lqruz6wbu&%0(ee*ycdo@hu=+b*!73wkwqc#la73i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://127.0.0.1:8000", "http://marinewatcher.herokuapp.com"]
 
 
 # Application definition
