@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Form{% endblock %}
+{% block body %}
+  <link rel="stylesheet" href="form.css">
+  <script type="text/javascript" src="form.js"></script>
+  <div class="row">
+    <h1>Put your Image here.</h1>
+    <div class="input-group">
+      <span class="input-group-text"></span>
+      <textarea class="form-control" aria-label="With textarea" rows="15" cols="40"></textarea>
+    </div>
+    <button type="button" class="btn btn-info btn-lg" >Capture Image</button>
+    <div class="x form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        Plastic Bottles
+      </label>
+    </div>
+    <div class="x form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+      <label class="form-check-label" for="flexRadioDefault2">
+        Fishing Net
+      </label>
+    </div>
+    <div class="x form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        Plastic Bottles
+      </label>
+    </div>
+    <div class="x form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        Plastic Bag
+      </label>
+    </div>
+    <div class="x form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        Other Stuffs
+      </label>
+    </div>
+  </div>
+{% endblock %}
