@@ -1,8 +1,9 @@
 {% extends "base.html" %}
-{% block title %}Form{% endblock %}
+{% load static %}
+{% block title %}Detector{% endblock %}
 {% block body %}
-  <link rel="stylesheet" href="form.css">
-  <script type="text/javascript" src="form.js"></script>
+  <link rel="stylesheet" href="{% static 'css/form.css' %}">
+  <script type="text/javascript" src="{% static 'js/form.js' %}"></script>
   <div class="row">
     <h1>Put your Image here.</h1>
     <div class="input-group">
