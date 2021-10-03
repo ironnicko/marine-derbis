@@ -1,5 +1,7 @@
 {% block title %}Maine Watcher{% endblock %}
+{% load static %}
 {% block body %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
   <section id="title">
     <div class="container-fluid">
 
@@ -16,7 +18,7 @@
       <button class="btn btn-outline-light btn-lg download-button" type="button"> <i class="fab fa-google-play"></i> Download</button>
       </div>
     <div class="col-lg-6">
-      <img class="title-image" src="images/pic2.jpg" alt="iphone-mockup">
+      <img class="title-image" src="{% static 'images/pic2.jpg' %}" alt="iphone-mockup">
     </div>
 
   </div>
@@ -60,23 +62,23 @@
 
     <div class="carousel-item active">
       <h2>Marine life is being relentlessly mangled by personage. Thus, eventually mistreating the ecosystem on whole.</h2>
-      <img class = "image_dog" src="images/ocean2.jpg" alt="dog-profile">
+      <img class = "image_dog" src="{% static 'images/ocean2.jpg' %}" alt="dog-profile">
     </div>
 
     <div class="carousel-item ">
       <h2 class="testimonial-text">To the immense of filth convened along the seashore, leads to the initiation of Marine Debris.</h2>
-      <img class="image_dog" src="images/ocean3.png" alt="lady-profile">
+      <img class="image_dog" src="{% static 'images/ocean3.png' %}" alt="lady-profile">
     </div>
 
     <div class="carousel-item ">
       <h2 class="testimonial-text">The Pelagic Heaven is being terminated along with defunction of aquatic creatures due to Human pursuits.</h2>
-      <img class="image_dog" src="images/background.gif" alt="lady-profile">
+      <img class="image_dog" src="{% static 'images/background.gif' %}" alt="lady-profile">
     </div>
 
 
     <div class="carousel-item ">
       <h2 class="testimonial-text">Sudden uprise in origination of Debris is required to come to a halt for Marine to be shielded.</h2>
-      <img class="image_dog" src="images/water.gif" alt="lady-profile">
+      <img class="image_dog" src="{% static 'images/water.gif' %}" alt="lady-profile">
     </div>
 
   </div>
@@ -97,9 +99,9 @@
 
   <section id="press">
 
-    <img class="press-logo" src="images/ocea1.jpg" alt="ocean-logo">
-    <img class="r press-logo" src="images/ocea2.jpg" alt="ocean-logo">
-    <img class="press-logo" src="images/ocea3.jpg" alt="ocean-ocean-logo">
+    <img class="press-logo" src="{% static 'images/ocea1.jpg' %}" alt="ocean-logo">
+    <img class="r press-logo" src="{% static 'images/ocea2.jpg' %}" alt="ocean-logo">
+    <img class="press-logo" src="{% static 'images/ocea3.jpg' %}" alt="ocean-ocean-logo">
 
   </section>
 
